@@ -7,7 +7,7 @@ export default function VideoItem({
 }) {
   const handleClick = (event) => {
     event.preventDefault();
-    
+
     onClick(link);
   };
 
